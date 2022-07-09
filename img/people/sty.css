@@ -1,0 +1,19 @@
+*{
+
+    padding : 0;
+    margin : 0;
+    box-sizing :border-box;
+    background : black;
+}
+.row{
+
+    width : 70%;
+    height : 500px;
+    box-shadow : 2px 3px 4px white;
+    position : absolute;
+    left : 50px;
+    top : 50px;
+    background : yellow;
+ 
+
+}

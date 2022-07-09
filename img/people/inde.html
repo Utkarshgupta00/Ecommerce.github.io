@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="sty.css" >
+    <title>Document</title>
+    <style>
+        .col{
+            width : 300px;
+            color : white;
+            background : red;
+            font-size : 40px;
+            height : 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "col"></div>
+   <input class = 'row' type = "text"/>
+    
+<script>7
+var raj = document.querySelector('.row');
+raj.addEventListener('click', function(){
+    document.querySelector('.col').style.background = "blue";
+})
+raj.addEventListener('mouseleave',function(){
+    document.querySelector('.col').innerHTML = "what is your name";
+})
+raj.addEventListener('keyup', function(event){
+    console.log(event.key);
+})
+raj.addEventListener('keydown',function(){
+    document.querySelector('.col').style.background = "red";
+})
+raj.addEventListener('mouseleave',function(){
+    document.querySelector('.col').style.background = "black";
+
+})
+</script>
+</body>
+</html>
